@@ -2,13 +2,15 @@ package com;
 
 import java.util.Scanner;
 
+
 public class OddorEven {
+	
 	
 	public static void main(String args[])
 	{
 		Scanner c=new Scanner(System.in);
 	    Integer number;
-	    //String choice;
+	    int answer;
 		System.out.println("Odd or Even");
 		
 		System.out.println("Please Enter a number:");  
@@ -21,7 +23,14 @@ public class OddorEven {
 		{
 			System.out.println("The number " + number +" is odd");
 		}
+		 answer=add(5,3);	
+		 System.out.println("The answer is : " + answer);
+		 
 		
+	}
+	private static int add(int a,int b)
+	{
+	return a+b;
 	}
 
 }
