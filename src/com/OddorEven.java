@@ -11,6 +11,7 @@ public class OddorEven {
 		Scanner c=new Scanner(System.in);
 	    Integer number;
 	    int answer;
+	    int minus;
 		System.out.println("Odd or Even");
 		
 		System.out.println("Please Enter a number:");  
@@ -25,12 +26,16 @@ public class OddorEven {
 		}
 		 answer=add(5,3);	
 		 System.out.println("The answer is : " + answer);
-		 
+		 minus=sub(5,3);	
+		 System.out.println("The minus is : " + minus);
 		
 	}
 	private static int add(int a,int b)
 	{
 	return a+b;
 	}
-
+	private static int sub(int a,int b)
+	{
+	return a-b;
+	}
 }
