@@ -16,12 +16,17 @@ public class OddorEven {
 		if(number%2==0)
 		{
 			System.out.println("The number " + number + " is even");
+			int answer=multiply(number);
+			System.out.println(answer);
 		}
 		else
 		{
 			System.out.println("The number " + number +" is odd");
 		}
 		
+	}
+	private static int multiply(int number){
+		return number*2;
 	}
 
 }
