@@ -12,6 +12,7 @@ public class OddorEven {
 	    Integer number;
 	    int answer;
 	    int minus;
+	    double division;
 		System.out.println("Odd or Even");
 		
 		System.out.println("Please Enter a number:");  
@@ -29,6 +30,8 @@ public class OddorEven {
 		 minus=sub(5,3);	
 		 System.out.println("The minus is : " + minus);
 		 //test for conflict
+		 division=div(5,3);	
+		 System.out.println("The division is : " + division);
 		
 	}
 	private static int add(int a,int b)
@@ -39,5 +42,10 @@ public class OddorEven {
 	{
 	return a-b;
 	}
-	//test conflict gayathri  
+	//test conflict gayathri 
+	private static double div(int a,int b)
+	{
+	return a/b;
+	}
+	//test conflict gayathri1 
 }
