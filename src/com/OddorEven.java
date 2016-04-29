@@ -32,7 +32,8 @@ public class OddorEven {
 		 //test for conflict
 		 division=div(5,3);	
 		 System.out.println("The division is : " + division);
-		
+		 int square=squ(number);
+		 System.out.println("The square is : " + square);
 	}
 	private static int add(int a,int b)
 	{
@@ -46,6 +47,10 @@ public class OddorEven {
 	private static double div(int a,int b)
 	{
 	return a/b;
+	}
+	private static int squ(int number)
+	{
+	return number*number;
 	}
 	//test conflict gayathri1 
 }
